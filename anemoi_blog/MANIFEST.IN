@@ -1,0 +1,4 @@
+include anemoi/schema.sql
+graft anemoi/static
+graft anemoi/templates
+global-exclude *.pyc
