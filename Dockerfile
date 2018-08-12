@@ -1,4 +1,5 @@
 FROM python:3.6
+RUN cd /anemoi
 RUN pip install -r requirements.txt
 #WORKDIR /anemoi/anemoi_blog
 RUN export FLASK_APP=anemoi
