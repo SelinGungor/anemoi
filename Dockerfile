@@ -5,7 +5,8 @@ RUN pwd
 RUN ls
 WORKDIR /anemoi
 RUN pip install -r requirements.txt
+WORKDIR /anemoi/anemoi_blog
 RUN export FLASK_APP=anemoi
 #RUN flask init-db
-EXPOSE 8000
+EXPOSE 5000
 CMD ["flask", "run.py"]
